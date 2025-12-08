@@ -1,0 +1,18 @@
+CompileFlags:
+  Add:
+    - --target=x86_64-w64-mingw32
+    - -I
+    - C:/msys64/mingw64/include/SDL2
+    - -I
+    - C:/libcs50-main/include
+    - -I 
+    - C:/Users/Munashe/Documents/Projects/Visual_Studio_Community/C_C++/2DEnginePort/2DEnginePort/include
+    - I
+    - C:/Users/Munashe/Documents/Projects/Visual_Studio_Community/C_C++/2DEnginePort/2DEnginePort/src/ui
+    - -L
+    - C:/msys64/mingw64/lib
+    - -L
+    - C:/libcs50-main/lib
+    - -lcs50
+    - -lSDL2
+    - -lSDL2main

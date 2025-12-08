@@ -1,0 +1,10 @@
+{
+  "fonts": [
+    {
+      "name": "menuFont",
+      "path": "assets/fonts/ThaleahFat.ttf",
+      "fontSize": 24
+    }
+  ],
+  "FKeyPath": "assets/ui/keyboard_F.png"
+}

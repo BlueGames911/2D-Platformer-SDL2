@@ -1,0 +1,72 @@
+{
+  "levelName": "ForestMap",
+  "spawnColumn": 1,
+  "levelColumns": 64,
+  "levelRows": 20,
+  "hasEnemies": true,
+  "enemyPath": "assets/maps/ForestMap/enemies_forestMap.json",
+
+  "levelTrigger": {
+    "enabled": true,
+    "tileX": 60,
+    "tileY": 17,
+    "width": 2,
+    "height": 3,
+    "targetLevel": "tmpLevel",
+    "promptText": "Press F to enter Plains Area"
+  },
+
+  "tilesets": [
+    {
+      "id": "decor",
+      "image": "assets/mapFiles/ForestMap/decorations/spritesheet.png",
+      "tileSize": 24,
+      "tilesPerRow": 17,
+      "scale": 2.3
+    },
+    {
+      "id": "mainTiles",
+      "image": "assets/mapFiles/ForestMap/oak_woods_tileset.png",
+      "tileSize": 24,
+      "tilesPerRow": 21,
+      "scale": 2.3
+    }
+  ],
+
+  "layers": [
+    {
+      "name": "deocoration",
+      "csv": "assets/maps/ForestMap/forestMapv1._Decorations.csv",
+      "tileset": "decor",
+      "collidable": false
+    },
+    {
+      "name": "foreground",
+      "csv": "assets/maps/ForestMap/forestMapv1._Foreground.csv",
+      "tileset": "mainTiles",
+      "collidable": true,
+      "solidTiles": [ 0, 1, 2, 3, 68, 48, 70, 64, 65, 5, 6, 7, 8, 24, 45 ]
+    }
+  ],
+
+  "backgrounds": [
+    {
+      "image": "assets/mapFiles/ForestMap/background/background_layer_1.png",
+      "scrollSpeed": 0.25,
+      "scale": 1.0,
+      "offsetY": 0
+    },
+    {
+      "image": "assets/mapFiles/ForestMap/background/background_layer_2.png",
+      "scrollSpeed": 0.4,
+      "scale": 1.0,
+      "offsetY": 0
+    },
+    {
+      "image": "assets/mapFiles/ForestMap/background/background_layer_3.png",
+      "scrollSpeed": 0.6,
+      "scale": 1.0,
+      "offsetY": 0
+    }
+  ]
+}

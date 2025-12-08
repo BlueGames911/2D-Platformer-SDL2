@@ -1,0 +1,60 @@
+{
+  "enemies": [
+    {
+      "type": "goblin",
+      "tileX": 23,
+      "tileY": 16,
+      "facing": "left",
+      "params": {
+        "patrolLeftTileDistance": 5,
+        "patrolRightTileDistance": 5,
+        "visualTileRange": 8,
+        "aggroRange": 5,
+        "turnDelay": 3,
+        "level": 3
+      }
+    },
+    {
+      "type": "goblin",
+      "tileX": 38,
+      "tileY": 16,
+      "facing": "left",
+      "params": {
+        "patrolLeftTileDistance": 5,
+        "patrolRightTileDistance": 5,
+        "visualTileRange": 8,
+        "aggroRange": 5,
+        "turnDelay": 3,
+        "level": 3
+      }
+    },
+    {
+      "type": "goblin",
+      "tileX": 55,
+      "tileY": 17,
+      "facing": "left",
+      "params": {
+        "patrolLeftTileDistance": 5,
+        "patrolRightTileDistance": 5,
+        "visualTileRange": 8,
+        "aggroRange": 5,
+        "turnDelay": 2.5,
+        "level": 5
+      }
+    },
+    {
+      "type": "goblin",
+      "tileX": 50,
+      "tileY": 17,
+      "facing": "left",
+      "params": {
+        "patrolLeftTileDistance": 5,
+        "patrolRightTileDistance": 5,
+        "visualTileRange": 8,
+        "aggroRange": 5,
+        "turnDelay": 2.5,
+        "level": 4
+      }
+    }
+  ]
+}

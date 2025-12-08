@@ -1,6 +1,5 @@
-# [Munashe Chikomwe] 2D Platformer made in SDL2
+# 2D Platformer made in SDL2
 
-#### Video Demo: https://youtu.be/A092AKttPbY
 #### Github Link: https://github.com/BlueGames911/2D-Platformer-SDL2
 
 ## Table of Contents

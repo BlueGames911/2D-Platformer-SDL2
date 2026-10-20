@@ -1,6 +1,6 @@
 # 2D Platformer made in SDL2
 
-#### Github Link: https://github.com/BlueGames911/2D-Platformer-SDL2
+#### YouTube Link: https://youtu.be/A092AKttPbY
 
 ## Table of Contents
 1. [Description](#description)
@@ -49,32 +49,7 @@ I learned a lot from this project. I love game programming, but wow, it can driv
 - **Text Rendering:** SDL2_ttf
 - **JSON Parsing:** cJSON library
 - **Build System:** Visual Studio 2022 / GCC (CMake planned in the future)
-- **Level Editor:** Tiled Map Editor
-
-## 📁 Project Structure
-project/  
-├── **main.c** -- Entry point and game loop  
-├── **src/** -- Source files  
-│ ├── **gameManager.c** -- Central game startup, resource allocation and state management  
-│ ├── **player.c** -- Player, loading, updating, state handling logic and combat  
-│ ├── **entity.c** -- Shared entity system  
-│ ├── **level.c** -- Level and enemy loading and rendering  
-│ ├── **animation.c** -- Animation system  
-│ ├── **collision.c** -- Physics and collision detection  
-│ ├── **camera.c** -- Camera following system  
-│ ├── **settings.c** -- Settings management  
-│ ├── **input.c** -- Simple input handling  
-│ ├── **render.c** -- Main level rendering loop  
-│ ├── **utils.c** -- Only used for reading a file into memory  
-│ ├── **update.c** -- Main level update loop  
-│ ├── **ui/** -- Folder contianing all my UI code
-│ ├── **enemyCode/** -- Enemy specific code 
-│ └──    
-├── **include/** -- Header files    
-├── **assets/** -- Game assets (Level json files, character sprites, CSV files)    
-├── **bin/**    
-│ └── **debug/** -- Executable output    
-└── **README.md**    
+- **Level Editor:** Tiled Map Editor 
 
 ## How to Run
 
@@ -86,7 +61,7 @@ project/
 - cJSON library
 - C compiler (GCC/Clang/MSVC) (Not needed if Visual Studio is installed)
 
-### Windows (Visual Studio)
+### Windows (Visual Studio Community)
 1. Clone the repository
 2. Open `project.sln` in Visual Studio 2022
 3. Build solution (F7)

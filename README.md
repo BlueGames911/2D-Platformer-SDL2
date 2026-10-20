@@ -6,11 +6,10 @@
 1. [Description](#description)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
-4. [Project Structure](#-project-structure)
-5. [How to Run](#how-to-run)
-6. [Controls](#controls)
-7. [Design Decisions](#design-decisions)
-8. [Development Journey](#development-log)
+4. [How to Run](#how-to-run)
+5. [Controls](#controls)
+6. [Design Decisions](#design-decisions)
+7. [Development Journey](#development-log)
 
 
 ## Description
@@ -20,7 +19,7 @@ This project began as my CS50 Final Project, but it quickly became much more tha
 1. A way to hone my C programming skills.
 2. My first attempt at building something close to a game engine.
 3. A chance to gain real experience in game development, my dream field.
-4. A prototype for a game a friend and I want to create someday (likely in MonoGame).
+4. A prototype for a game a friend and I want to create someday (likely in MonoGame). `Edit: I have already started one, but it is not Github shareable as of yet, according to me`
 
 I chose to write this in C with SDL2 because:
 
